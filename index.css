@@ -1,0 +1,196 @@
+body{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0;
+}
+.header_website{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    
+    justify-content: center;
+    background-color: #D5B981;
+}
+/* .image_play{
+    position: absolute;
+  
+}*/
+.hero_img{
+ width: 300px;
+
+}
+.partie2{
+    margin-top: 50px;
+    margin-left: 20px;
+}
+button{
+    font-size: 15px;
+    background-color: #D5B981;
+    color: black;
+    border: 1px solid black;
+    height: 40px;
+}
+.section1{
+    background-color: white;
+    margin-top: 100px; 
+}
+.experience{
+    margin-left: 70px;
+    display: flex;
+    justify-content: center;
+}
+.text-about{
+    margin-left: 20px;
+}
+.background-about{
+    background-color: #1d2434;
+    margin-left: 20px;
+}
+.image_about{
+    width: 200px;
+
+}
+.b2{
+    background-color: white;
+    border: 1px solid black;
+}
+.section2{
+    margin-top:100px ;
+    margin-left: 20px;
+}
+.salon{
+    text-align: center;
+    color:gray;
+
+}
+.Best{
+    margin-top: 10px;
+    text-align: center;
+}
+
+.cards1{
+    display: flex;
+}
+.cards1 img{
+    width: 100%;
+}
+.card1 h1,p{
+text-align: center;
+}
+.card1 button{
+background-color:rgb(248, 248, 248); 
+margin-left: 100px;
+border: 2px solid black;
+}
+.card1{
+    background-color: rgb(248, 248, 248);
+    margin: 20px;
+}
+
+
+
+.Prices{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.Price h2{
+    font-size: 20px;
+}
+.Price .text{
+    margin-left: 10px;
+    
+}
+.Price p{
+    color: gray;
+    margin:0px 0px 0px 0px ;
+}
+.Price {
+width: 22%;
+display: flex;
+background-color: rgb(244, 244, 244) ;
+margin: 3px;
+}
+.Price img{
+    width: 40%    ;
+    height: 100;
+}
+.section4{
+    margin-top: 20px;
+    height: 400px;
+    position: relative;
+}
+.background-image{
+width: 100%;
+height: 400px;
+box-shadow: inset 20px 20px 20px 20px black ;
+position: absolute;
+
+}
+
+.description{
+    position: absolute;
+    text-align: left;
+    top: 100px;
+    left:300px
+}
+.description img{
+    border-radius: 50px;
+    width: 50px;
+}
+.description p{
+    color: white;
+    text-align: left;
+}
+.profession{
+    font-size: 15px;
+    margin-top: 0px;
+}
+.description h2{
+    color: #D5B981
+}
+.section4{
+    margin-top: 20px;
+}
+.Experts{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.Expert::before{
+position: absolute;
+content:"";
+right: 10px;
+top: 10px;
+left: 10px;
+margin-left: 20px;
+border: 1px solid white;
+width: 70%;
+height: 75%;
+
+}
+.Expert img{
+width:100%;
+height: 200px;
+
+}
+.Expert{
+
+    width: 20%;
+    height: 250px;
+    position: relative;   
+}
+.Expert h3{
+    font-size: 15px;
+
+}
+.text-part{
+    width: 150px;
+    text-align: center;
+    background-color:  rgb(244, 244, 244);
+    position:absolute;
+    margin-left: 40px;
+    top:60%;
+    left: -5%;    
+}
+
